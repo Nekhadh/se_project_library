@@ -1,0 +1,19 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredDarkColorTheme": "Default Light+",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark"
+}
