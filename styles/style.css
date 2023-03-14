@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -31,14 +31,14 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
-  margin-top: 8px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   column-gap: 20px;
-  list-style-type: none;
-  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding: 0%;
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav__link {
@@ -51,11 +51,13 @@
 }
 
 .header__title {
+  max-width: 544px;
+  margin-top: 150px;
+  margin-bottom: 32px;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin-bottom: 32px;
-  max-width: 544px;
+  z-index: 1;
 }
 
 .header__description {
@@ -104,6 +106,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -265,7 +268,6 @@
 
 .staff__cards {
   max-width: 760px;
-  margin-top: 68px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -393,6 +395,10 @@
   margin-bottom: 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -469,6 +475,6 @@
 }
 
 .footer__copyright {
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   margin-top: 108px;
 }
