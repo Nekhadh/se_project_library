@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -61,10 +61,10 @@
 }
 
 .header__description {
+  max-width: 465px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
-  max-width: 532px;
+  margin: 32px 0 0;
 }
 
 .header__image {
@@ -475,6 +475,6 @@
 }
 
 .footer__copyright {
-  margin-bottom: 120px;
-  margin-top: 108px;
+  color: white;
+  margin: 0;
 }
